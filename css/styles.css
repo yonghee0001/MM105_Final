@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.topSpace{
+    margin-top: 50px;
+}
+
+.card-title{
+    color:aquamarine;
+    font-size:small;
+    font-weight: 100;
+}
+.main-container {
+    max-width:85%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.px-3 {
+    max-width: 50%;
+    margin: 100px auto;
+}
+
+.px-3 h1{
+    padding: 2%;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(2, 165, 2);
+}
+
+.classworks h1{
+    text-align: center;
+    color: rgb(2, 165, 2);
+    font-weight:500;
+    font-size: xx-large;
+    margin: 50px auto;
+}
+
+
+main img{
+    max-width: 100%;
+}
+
+.imageGroup1 img{
+    max-width: 98%;
+}
+.imageGroup1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cycle-slideshow{
+    z-index: -1;
+}
+.slideshow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideshow{
+    margin: 10px 0;
+    float: left;
+    max-width: 99%;
+}
+
+.imageGroup3{
+    display:inline-flex;
+    justify-content: space-between;
+}
+.imageGroup3 img{
+    max-width: 98%;
+}
+
+
+#carouselExampleCaptions h5{
+    color:aquamarine;
+    font-size:small;
+    font-weight: 100;
+}
+
+
+.sideproject h1{
+    text-align: center;
+    color: rgb(2, 165, 2);
+    font-weight:500;
+    font-size: xx-large;
+    margin: 50px auto;
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.card-body h5{
+    color:rgb(0, 158, 176);
+    font-size: large;
+    font-weight: 500;
+}
+
+#contact h2{
+    color:rgb(2, 165, 2);
+    font-weight: 500;
+}
+.footer{
+    color:#888888;
+    text-align: center;
+    padding: 10px;
+    font-size:medium;
+    font-weight: 200;
+    border-top: 1.5px solid silver;
+    background-color: white;
+}

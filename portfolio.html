@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="swipebox/css/swipebox.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Yonghee Lee</title>
+  </head>
+
+
+  <body class="topSpace">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Yonghee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="sideprojects.html">Side Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>     
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-container">
+        <main>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/lookcooklong.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/lookcooklong2.png" class="d-block w-100" alt="...">
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+            <div id=portfolio> 
+            <div class="classworks">
+                <h1>Classworks</h1>
+            </div>
+            </div>
+
+            <div class="imageGroup1">
+
+                <div class="cycle-slideshow">
+                    <img src="images/webmockup.jpg" alt="classworks1">
+                    <img src="images/logodesign.png" alt="classworks1">
+                </div>
+                
+                <div><img src="images/offerup.jpg" alt="classworks2"></div>
+            </div>
+
+            <div class="slideshow">
+                <a href="images/lookcooklong2.png" class="swipebox" title="detailed view">
+                    <img src="images/lookcooklong.jpg" alt="image">
+                    </a>
+            </div>
+            <div class="imageGroup3">
+                <div><img src="images/nym.jpg" alt="classworks4"></div>
+                <div><img src="images/typebook2.jpg" alt="classworks5"></div>
+            </div>
+          </main>
+    
+
+    </div>
+
+
+      <div class="footer">
+        &copy; 2020–2022 by Yonghee Lee
+    </div>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+
+
+    <script src="swipebox/js/jquery-2.1.0.min.js"></script>
+    <script src="swipebox/js/jquery.swipebox.js"></script>
+    <script type="text/javascript">
+        ;( function( $ ) {
+        
+            $( '.swipebox' ).swipebox();
+        
+        } )( jQuery );
+        </script>
+
+  </body>
+</html>
